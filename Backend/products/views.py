@@ -3,4 +3,5 @@ from rest_framework.views import APIView
 
 class ProductList(APIView):
 
-    pass
+    def get(self, request):
+         
